@@ -29,7 +29,7 @@ nav a {
 
 img {
     border: 4px solid white;
-    padding: 5px;
+    padding: 5px; color: forestgreen;
     margin: 10px;
     width: 310px;
 }
