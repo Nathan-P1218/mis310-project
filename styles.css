@@ -38,6 +38,7 @@ img {
 iframe {
     border: 4px solid forestgreen;
     padding: 5px;
+    background-color: white;
     margin: 20px 0;
 }
 
@@ -55,10 +56,4 @@ a:hover {
 p {
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.course-images {
-    background-color: honeydew;
-    padding: 20px;
-    border: 2px solid darkseagreen;
 }
