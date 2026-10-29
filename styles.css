@@ -13,6 +13,21 @@ h1 {
     padding-bottom: 10px;
 }
 
+h2 {
+    color: forestgreen;
+    font-size: 26px;
+}
+
+h3 {
+    color: darkgreen;
+    font-size: 21px;
+}
+
+li {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
 nav {
     color: tan;
     font-size: 20px;
@@ -55,6 +70,8 @@ a:hover {
 }
 
 p {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
