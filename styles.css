@@ -11,6 +11,16 @@ main {
     padding: 0 20px;
 }
 
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.about-grid section {
+    margin-bottom: 0;
+}
+
 section {
     background-color: white;
     border: 2px solid forestgreen;
@@ -137,6 +147,9 @@ p {
 
     main {
         padding: 0 12px;
+    }
+    .about-grid {
+    grid-template-columns: 1fr;
     }
     body {
         margin: 0;
