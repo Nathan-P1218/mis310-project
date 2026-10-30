@@ -21,6 +21,12 @@ main {
     margin-bottom: 0;
 }
 
+.start-exploring {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 section {
     background-color: white;
     border: 2px solid forestgreen;
