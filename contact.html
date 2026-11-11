@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Contact - Carolina Golf Course Explorer</title>
 </head>
+
 <body>
-    
+
+    <header>
+        <h1>Contact Carolina Golf Course Explorer</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="north_carolina.html">North Carolina Courses</a>
+            <a href="south_carolina.html">South Carolina Courses</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Contact Us</h2>
+
+            <p>
+                Have a question about golf courses in North
+                or South Carolina? Fill out the form below
+                to share your questions or feedback.
+            </p>
+        </section>
+
+        <section>
+            <h2>Contact Form</h2>
+
+            <form action="https://miswebapps.uncw.edu/mis310/form-submit.aspx"
+                  method="post">
+
+                <p>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message"
+                              rows="5" required></textarea>
+                </p>
+
+                <button type="submit">Submit Form</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Carolina Golf Course Explorer | MIS 310 Project</p>
+    </footer>
+
 </body>
 </html>
