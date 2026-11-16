@@ -178,7 +178,7 @@ form p label {
     margin-bottom: 8px;
 }
 
-form input[type="text"],
+form input[type="teabout.htmlxt"],
 form input[type="email"],
 form select,
 form textarea {
@@ -206,4 +206,18 @@ legend {
 
 fieldset label {
     margin-right: 15px;
+}
+
+form button {
+    background-color: forestgreen;
+    color: white;
+    border: 2px solid darkgreen;
+    padding: 123px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: darkgreen;
 }
