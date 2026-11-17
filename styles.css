@@ -199,7 +199,7 @@ fieldset {
     box-sizing: border-box;
     border: 2px solid forestgreen;
     padding: 15px;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 legend {
