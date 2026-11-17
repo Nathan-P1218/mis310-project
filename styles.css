@@ -178,7 +178,7 @@ form p label {
     margin-bottom: 8px;
 }
 
-form input[type="teabout.htmlxt"],
+form input[type="text"],
 form input[type="email"],
 form select,
 form textarea {
